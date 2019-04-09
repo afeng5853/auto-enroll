@@ -1,0 +1,10 @@
+[package]
+name = "autoenroll"
+version = "0.1.0"
+authors = ["alex <alex.feng@stonybrook.edu>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "0.9.13"
+failure = "0.1.5"
+blake2 = "0.8.0"
