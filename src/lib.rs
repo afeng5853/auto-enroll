@@ -39,7 +39,7 @@ impl<'a> Requester<'a> {
             client: reqwest::Client::new(),
             json_hash : HashMap::new(),
             track_keys,
-            url: url,
+            url,
             params
         }
     }
